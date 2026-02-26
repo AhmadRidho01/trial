@@ -44,8 +44,7 @@ features.insertBefore(socialUl, quoteBtn);
 // --- ---
 
 // 3. LOGIKA NODE.JS UNTUK API NINJAS
-const targetUrl = "http://localhost:3000/api/quotes";
-
+const targetUrl = "https://trial-hazel-one.vercel.app/api/quotes";
 async function fetchQuotes() {
   quoteBtn.classList.add("loading");
   try {
