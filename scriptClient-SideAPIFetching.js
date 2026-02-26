@@ -43,7 +43,7 @@ features.insertBefore(socialUl, quoteBtn);
 
 // --- ---
 
-// 3. LOGIKA NODE.JS UNTUK ZENQUOTES
+// 3. LOGIKA NODE.JS UNTUK API NINJAS
 const targetUrl = "http://localhost:3000/api/quotes";
 
 async function fetchQuotes() {
